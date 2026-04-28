@@ -1,6 +1,5 @@
 import express from 'express';
 import { getCurrentUser, login, logout, register } from '../controllers/authController.js';
-// import User from '../models/User.js';
 import authMiddleware from "../middleware/authMiddleware.js";
 
 
