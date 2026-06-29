@@ -13,7 +13,7 @@ const Login = () => {
     password: "",
   });
 
-  const [checkingAuth, setCheckingAuth] = useState(true);
+  
 
   useEffect(() => {
     const checkAuth = async () => {
