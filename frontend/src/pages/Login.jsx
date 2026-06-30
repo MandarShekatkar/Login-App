@@ -6,7 +6,7 @@ import api from '../api/axios'
 import '../styles/auth.css';
 
 const Login = () => {
-  const navigate = useNavigate()
+  
 
   const [formData, setformData] = useState({
     email: "",
